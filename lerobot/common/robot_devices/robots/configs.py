@@ -512,7 +512,7 @@ class So100RobotConfig(ManipulatorRobotConfig):
                 #port='/dev/tty.usbmodem58FD0173471',
                 #################################################
                 
-                port = '/dev/tty.usbmodem58FA0831291',
+                port ="/dev/tty.usbmodem58FA0831291",
                 motors={
                     # name: (index, model)
                     "shoulder_pan": [1, "sts3215"],
@@ -530,7 +530,7 @@ class So100RobotConfig(ManipulatorRobotConfig):
         default_factory=lambda: {
             "main": FeetechMotorsBusConfig(
                 ######### Follower Arm Serial Servo #####
-                port='/dev/tty.usbmodem58FD0173471',
+                port="/dev/tty.usbmodem58FD0173471",
                 #################################################
                 motors={
                     # name: (index, model)
