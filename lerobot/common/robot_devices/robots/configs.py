@@ -550,20 +550,20 @@ class So100RobotConfig(ManipulatorRobotConfig):
             "arm_camera": OpenCVCameraConfig(
                 camera_index=0,
                 fps=30,
-                width=1920,
-                height=1080,
+                width=640,
+                height=480,
             ),
-            "phone_diagonal_camera": OpenCVCameraConfig(
-                camera_index=2,
+            "phone_diagonal": OpenCVCameraConfig(
+                camera_index=3,
                 fps=30,
-                width=1920,
-                height=1080,
+                width=640,
+                height=480,
             ),
-            "top_down_camera": OpenCVCameraConfig(
+            "top_down": OpenCVCameraConfig(
                 camera_index=1,
                 fps=30,
-                width=1920,
-                height=1080,
+                width=640,
+                height=480,
             ),
         }
     )
